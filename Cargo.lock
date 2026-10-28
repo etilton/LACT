@@ -1678,6 +1678,8 @@ dependencies = [
  "lact-daemon",
  "lact-gui",
  "lact-schema",
+ "libdisplay-info",
+ "libdisplay-info-derive",
 ]
 
 [[package]]
@@ -1856,9 +1858,8 @@ dependencies = [
 
 [[package]]
 name = "libdisplay-info"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59fd96dbb2381ff31f314f07accbdf8550febdcc5cd8761ecaf7c1763361c359"
+version = "0.4.0"
+source = "git+https://github.com/ArthurHeymans/libdisplay-info-rs?branch=support-libdisplay-info-0.4#3911e0344bb2db5839f2c646d25e8c2a8b5223d9"
 dependencies = [
  "bitflags 2.13.2",
  "libc",
@@ -1870,8 +1871,7 @@ dependencies = [
 [[package]]
 name = "libdisplay-info-derive"
 version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8dc2c710cf5819e91220a446d9e64acc6814386cc22c509c3f0df83c0b874a98"
+source = "git+https://github.com/ArthurHeymans/libdisplay-info-rs?branch=support-libdisplay-info-0.4#3911e0344bb2db5839f2c646d25e8c2a8b5223d9"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1880,9 +1880,8 @@ dependencies = [
 
 [[package]]
 name = "libdisplay-info-sys"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "26590d55b8819f9c6b0d95d9d12dc9edbfd1f2413e88814a33b631ac049bb51f"
+version = "0.4.0"
+source = "git+https://github.com/ArthurHeymans/libdisplay-info-rs?branch=support-libdisplay-info-0.4#3911e0344bb2db5839f2c646d25e8c2a8b5223d9"
 dependencies = [
  "semver",
  "system-deps 7.0.8",
